@@ -9,3 +9,5 @@ SSH Keyの設定
   ssh-keygen -t rsa -C "taro_yamada@nifty.com"
 GitHubとの疎通確認
   ssh -T git@github.com
+git pushの設定
+  git config --global push.default simple
