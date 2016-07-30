@@ -1,0 +1,11 @@
+GitHubを使うための準備
+
+gitのインストール
+gitの初期設定
+  git config --global user.name "Taro Yamada"
+  git config --global user.email "taro_yamada@nifty.com"
+  git config --global color.ui auto
+SSH Keyの設定
+  ssh-keygen -t rsa -C "taro_yamada@nifty.com"
+GitHubとの疎通確認
+  ssh -T git@github.com
